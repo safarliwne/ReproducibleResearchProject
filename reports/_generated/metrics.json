@@ -1,0 +1,15 @@
+{
+  "data_path": "data\\raw\\owid-co2-data.csv",
+  "prepared_rows": 9901,
+  "latest_rows": 165,
+  "year_min": 1960,
+  "year_max": 2022,
+  "regression": {
+    "intercept": 0.5640030322382411,
+    "slope": 0.000207140920665178,
+    "r_squared": 0.5556456693991769,
+    "p_value": 1.6242331225437463e-30,
+    "nobs": 165,
+    "summary_text": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                 co2_pc   R-squared:                       0.556\nModel:                            OLS   Adj. R-squared:                  0.553\nMethod:                 Least Squares   F-statistic:                     203.8\nDate:                Mon, 01 Jun 2026   Prob (F-statistic):           1.62e-30\nTime:                        00:41:31   Log-Likelihood:                -449.62\nNo. Observations:                 165   AIC:                             903.2\nDf Residuals:                     163   BIC:                             909.4\nDf Model:                           1                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P>|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst          0.5640      0.401      1.407      0.161      -0.227       1.355\ngdp_pc         0.0002   1.45e-05     14.277      0.000       0.000       0.000\n==============================================================================\nOmnibus:                       86.896   Durbin-Watson:                   1.744\nProb(Omnibus):                  0.000   Jarque-Bera (JB):              550.695\nSkew:                           1.837   Prob(JB):                    2.62e-120\nKurtosis:                      11.161   Cond. No.                     3.83e+04\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\n[2] The condition number is large, 3.83e+04. This might indicate that there are\nstrong multicollinearity or other numerical problems."
+  }
+}
