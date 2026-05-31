@@ -1,5 +1,5 @@
-from data import load_data
-from visualization import plot_world_co2
+from src.co2_repro.data import load_data
+from src.co2_repro.visualization import plot_world_co2
 
 
 def main():
